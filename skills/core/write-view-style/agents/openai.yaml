@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write View Style"
+  short_description: "Create Qt QWidget QSS styles"
+  default_prompt: "Use $write-view-style to create or improve Qt QWidget QSS styles from a reference image or UI direction."

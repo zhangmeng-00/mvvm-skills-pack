@@ -1,0 +1,4 @@
+interface:
+  display_name: "Message Design"
+  short_description: "Govern Mediator tag and policy contracts"
+  default_prompt: "Use $project-message-design to design Mediator tags, types, meta-type registration, and policies."

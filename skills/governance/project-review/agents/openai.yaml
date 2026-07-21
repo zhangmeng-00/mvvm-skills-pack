@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Review"
+  short_description: "Review for bugs and MVVM risks"
+  default_prompt: "Use $project-review to inspect a completed MVVM stage for bugs, risks, and missing tests."

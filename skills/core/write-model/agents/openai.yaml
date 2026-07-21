@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Model"
+  short_description: "Create BaseModel classes"
+  default_prompt: "Use $write-model to implement a MediatorCore BaseModel subclass that follows tag handlers and lifecycle rules."

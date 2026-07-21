@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write View"
+  short_description: "Create Qt View classes"
+  default_prompt: "Use $write-view to implement a Qt View that creates its ViewModel, binds properties, forwards events, and supports stylesheets."

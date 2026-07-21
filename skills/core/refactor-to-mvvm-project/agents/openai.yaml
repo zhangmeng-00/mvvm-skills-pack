@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refactor to MVVM"
+  short_description: "Refactor existing Qt projects to Mediator MVVM"
+  default_prompt: "Use $refactor-to-mvvm-project to audit an existing Qt project and plan a staged refactor to the MediatorCore MVVM architecture."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Retrospective"
+  short_description: "Record corrections as project lessons"
+  default_prompt: "Use $project-retrospective after user corrections, failed verification, or rework."

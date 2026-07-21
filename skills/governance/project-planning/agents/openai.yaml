@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Planning"
+  short_description: "Create verifiable staged plans"
+  default_prompt: "Use $project-planning to break a large MVVM task into verifiable steps in docs/todo.md."

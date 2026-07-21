@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Mediator Policy"
+  short_description: "Plan or create subscription policies"
+  default_prompt: "Use $design-mediator-policy to choose or design MediatorCore subscription policies for tags."

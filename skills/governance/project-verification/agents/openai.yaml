@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Verification"
+  short_description: "Require evidence before completion"
+  default_prompt: "Use $project-verification before claiming a Qt/MVVM task is complete."

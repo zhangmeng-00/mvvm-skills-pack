@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write ViewModel"
+  short_description: "Create BaseViewModel classes"
+  default_prompt: "Use $write-viewmodel to implement a MediatorCore BaseViewModel subclass with Q_PROPERTY state and command publishing."

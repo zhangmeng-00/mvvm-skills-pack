@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Mediator Message"
+  short_description: "Plan tags and Qt metatypes"
+  default_prompt: "Use $design-mediator-message to design Mediator tags, QVariant payloads, and Qt metatype registration."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVVM Contract"
+  short_description: "Enforce MVVM layering rules"
+  default_prompt: "Use $project-mvvm-contract to check Model, ViewModel, View, and Bootstrapper boundaries."

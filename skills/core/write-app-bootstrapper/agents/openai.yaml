@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write App Bootstrapper"
+  short_description: "Create main and bootstrapper"
+  default_prompt: "Use $write-app-bootstrapper to write main.cpp, ModelBootstrapper, AppContext startup, and global registrations."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Design"
+  short_description: "Govern large-program design before coding"
+  default_prompt: "Use $project-design to constrain a large Qt/MVVM program design before implementation."

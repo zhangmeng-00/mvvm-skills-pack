@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Implementation"
+  short_description: "Constrain code implementation stages"
+  default_prompt: "Use $project-implementation before coding a planned Qt/MVVM task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design MVVM Framework"
+  short_description: "Plan MediatorCore MVVM features"
+  default_prompt: "Use $design-mvvm-framework to plan a MediatorCore MVVM feature and route work to the right subskills."

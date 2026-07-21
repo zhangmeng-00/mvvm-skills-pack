@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 19,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "vs2019-x86",
+      "displayName": "VS2019 Win32",
+      "generator": "Visual Studio 16 2019",
+      "binaryDir": "${sourceDir}/build/vs2019-x86",
+      "architecture": "Win32",
+      "cacheVariables": {
+        "ARCH": "x86",
+        "CMAKE_PREFIX_PATH": "C:/Qt/5.15.2/msvc2019/lib/cmake",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "vs2019-x64",
+      "displayName": "VS2019 x64",
+      "generator": "Visual Studio 16 2019",
+      "binaryDir": "${sourceDir}/build/vs2019-x64",
+      "architecture": "x64",
+      "cacheVariables": {
+        "ARCH": "x64",
+        "CMAKE_PREFIX_PATH": "C:/Qt/5.15.2/msvc2019_64/lib/cmake",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs2019-x86-debug",
+      "configurePreset": "vs2019-x86",
+      "configuration": "Debug"
+    },
+    {
+      "name": "vs2019-x86-release",
+      "configurePreset": "vs2019-x86",
+      "configuration": "Release"
+    },
+    {
+      "name": "vs2019-x64-debug",
+      "configurePreset": "vs2019-x64",
+      "configuration": "Debug"
+    },
+    {
+      "name": "vs2019-x64-release",
+      "configurePreset": "vs2019-x64",
+      "configuration": "Release"
+    }
+  ]
+}
